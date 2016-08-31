@@ -1,0 +1,19 @@
+{
+  "name": "dkrotts.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --debug --devtool source-map --output-pathinfo --progress --colors --watch --config ./config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkrotts/dkrotts.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkrotts/dkrotts.github.io/issues"
+  },
+  "homepage": "https://github.com/dkrotts/dkrotts.github.io#readme"
+}
