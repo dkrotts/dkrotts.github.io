@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --debug --devtool source-map --output-pathinfo --progress --colors --watch --config ./config/webpack.config.js"
+    "bundle": "webpack",
+    "dev": "webpack-dev-server --hot --inline"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dkrotts/dkrotts.github.io/issues"
   },
-  "homepage": "https://github.com/dkrotts/dkrotts.github.io#readme"
+  "homepage": "https://github.com/dkrotts/dkrotts.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
 }
